@@ -9,7 +9,7 @@ int removeElement(int* nums, int numsSize, int val) {
         
         }
     }
-    return k;
+    return k; // Return the new length of the array
 }
 
 int main(){
@@ -21,7 +21,7 @@ int main(){
    int k = removeElement(nums, numsSize, val); // K is the new length of the array after removing the element
 
    printf("The new Length of the array is: %d\n", k);
-   printf("The new array is: \n");
+   printf("The new array is : \n");
    for (int i = 0; i < k; i++){
        printf("%d ", nums[i]); // Print the new array
    }
